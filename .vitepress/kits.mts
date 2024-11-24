@@ -14,7 +14,7 @@ export function getSidebar(pathParam: string): DefaultTheme.SidebarItem[] {
         items: getSidebar(`${item.path}/${item.name}`),
       })
     } else {
-      res.push({ text: item.name, link: `${item.path}/${item.name}` })
+      res.push({ text: item.name, link: `${item.name}` })
     }
   })
   return res

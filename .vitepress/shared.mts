@@ -5,4 +5,5 @@ export const shared = defineConfig({
   description: 'A VitePress Site',
   lastUpdated: true,
   cleanUrls: true,
+  srcDir: './docs',
 })
