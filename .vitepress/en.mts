@@ -10,9 +10,9 @@ export const en = defineConfig({
         base: '/en/data_dev/',
         items: getSidebar('docs/en/data_dev/'),
       },
-      '/en/m_dev/': {
-        base: '/en/m_dev/',
-        items: getSidebar('docs/en/m_dev/'),
+      '/en/ext_dev/': {
+        base: '/en/ext_dev/',
+        items: getSidebar('docs/en/ext_dev/'),
       },
     },
   },

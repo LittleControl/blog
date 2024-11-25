@@ -8,14 +8,17 @@ hero:
   tagline: My great project tagline
   actions:
     - theme: brand
-      text: i_dev
-      link: /en/i_dev/markdown-examples
-    - theme: alt
-      text: data_dev
-      link: /en/data_dev/api-examples
+      text: Apple Development
+      link: /i_dev/markdown-examples
     - theme: brand
-      text: m_dev
-      link: /en/m_dev/markdown-examples
+      text: Data Development
+      link: /data_dev/api-examples
+    - theme: brand
+      text: Extension Development
+      link: /ext_dev/markdown-examples
+    - theme: alt
+      text: GitHub
+      link: https://github.com/LittleControl
 
 features:
   - title: Feature A

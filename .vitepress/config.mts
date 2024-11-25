@@ -3,11 +3,6 @@ import { shared } from './shared.mjs'
 import { zh } from './zh.mjs'
 import { en } from './en.mjs'
 
-const sidebar = zh?.themeConfig?.sidebar || []
-for (const item in sidebar) {
-  console.log(item, sidebar[item])
-}
-
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   ...shared,

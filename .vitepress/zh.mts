@@ -10,9 +10,9 @@ export const zh = defineConfig({
         base: '/data_dev/',
         items: getSidebar('docs/zh/data_dev/'),
       },
-      '/m_dev/': {
-        base: '/m_dev/',
-        items: getSidebar('docs/zh/m_dev/'),
+      '/ext_dev/': {
+        base: '/ext_dev/',
+        items: getSidebar('docs/zh/ext_dev/'),
       },
     },
     footer: {
