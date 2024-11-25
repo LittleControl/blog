@@ -1,7 +1,13 @@
 import { readdirSync } from 'fs'
 import { DefaultTheme } from 'vitepress'
 
-// dynamic generate sidebar
+/**
+ ** @Author: littlecontrol
+ ** @Date: 2024-11-26 06:07
+ ** @Description: dynamic generate sidebar
+ ** @Params: path
+ ** @Return: DefaultTheme.SidebarItem[]
+ **/
 export function getSidebar(pathParam: string): DefaultTheme.SidebarItem[] {
   const res: DefaultTheme.SidebarItem[] = []
   pathParam = pathParam.endsWith('/')
@@ -11,7 +17,7 @@ export function getSidebar(pathParam: string): DefaultTheme.SidebarItem[] {
     if (item.isDirectory()) {
       res.push({
         text: item.name,
-        items: getSidebar(`${item.path}/${item.name}`),
+        items: getSidebar(`${item.parentPath}/${item.name}`),
       })
     } else {
       res.push({ text: item.name, link: `${item.name}` })

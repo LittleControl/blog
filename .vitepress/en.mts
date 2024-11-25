@@ -5,14 +5,14 @@ export const en = defineConfig({
   lang: 'en-US',
   themeConfig: {
     sidebar: {
-      '/en/apple/': { base: '/en/apple/', items: getSidebar('docs/en/apple/') },
-      '/en/bigdata/': {
-        base: '/en/bigdata/',
-        items: getSidebar('docs/en/bigdata/'),
+      '/en/i_dev/': { base: '/en/i_dev/', items: getSidebar('docs/en/i_dev/') },
+      '/en/data_dev/': {
+        base: '/en/data_dev/',
+        items: getSidebar('docs/en/data_dev/'),
       },
-      '/en/development/': {
-        base: '/en/development/',
-        items: getSidebar('docs/en/development/'),
+      '/en/m_dev/': {
+        base: '/en/m_dev/',
+        items: getSidebar('docs/en/m_dev/'),
       },
     },
   },

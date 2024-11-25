@@ -8,11 +8,14 @@ hero:
   tagline: My great project tagline
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /apple/markdown-examples
+      text: i_dev
+      link: /i_dev/markdown-examples
     - theme: alt
-      text: API Examples
-      link: /bigdata/api-examples
+      text: data_dev
+      link: /data_dev/api-examples
+    - theme: brand
+      text: m_dev
+      link: /m_dev/markdown-examples
 
 features:
   - title: Feature A

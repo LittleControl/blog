@@ -5,14 +5,14 @@ export const zh = defineConfig({
   lang: 'zh-Hans',
   themeConfig: {
     sidebar: {
-      '/apple/': { base: 'apple/', items: getSidebar('docs/apple/') },
-      '/bigdata/': {
-        base: '/bigdata/',
-        items: getSidebar('docs/bigdata/'),
+      '/i_dev/': { base: 'i_dev/', items: getSidebar('docs/zh/i_dev/') },
+      '/data_dev/': {
+        base: '/data_dev/',
+        items: getSidebar('docs/zh/data_dev/'),
       },
-      '/development/': {
-        base: '/development/',
-        items: getSidebar('docs/development/'),
+      '/m_dev/': {
+        base: '/m_dev/',
+        items: getSidebar('docs/zh/m_dev/'),
       },
     },
     footer: {
