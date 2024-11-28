@@ -24,4 +24,7 @@ export const shared = defineConfig({
     },
     // siteTitle: false,
   },
+  markdown: {
+    lineNumbers: true,
+  },
 })
